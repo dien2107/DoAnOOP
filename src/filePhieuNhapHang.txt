@@ -1,0 +1,10 @@
+PN0001, 12/09/2023, YM20145, YAME, MNG0017, 2500, Q00009, Quần Tây Sợi Tự Nhiên, Vai Quan Tay 70% poly 28% rayon 2% spandex, white, 420000, 30, 35
+PN0002, 22/10/2023, OW23195, OWEN, MNG0014, 2500, Q00063, Quần Jeans ôm, Vai Quan jeans 70% poly 28% rayon 2% spandex, blue, 420000, 40, 35
+PN0003, 12/09/2023, YM20145, YAME, MNG0017, 4500, Q00011, Quần Dài Ống Rộng, Vai Quan Tay 70% poly 28% rayon 2% spandex, white, 420000, 30, 35
+PN0004, 22/11/2023, OW23195, OWEN, MNG0014, 4800, Q00063, Quần Baggy, Vai Quan jeans 70% poly 28% rayon 2% spandex, blue, 420000, 40, 35
+PN0005, 02/10/2023, YM20145, YAME, MNG0017, 5000, A00012, Áo Polo, Vãi Dày 70% poly 28% rayon 2% spandex, white, 420000, 30, size XL
+PN0006, 22/07/2023, OW23195, OWEN, MNG0014, 1000, A00063, Áo Sơ Mi Trung Niên, Vai Thoáng mát hút ẩm 70% poly 28% rayon 2% spandex, blue, 420000, 40, size XL
+PN0007, 14/09/2023, YM20145, YAME, MNG0017, 1500, A00015, Áo tay ngắn, Vai Cotton 70% poly 28% rayon 2% spandex, white, 420000, 30, size XL
+PN0008, 28/10/2023, OW23195, OWEN, MNG0014, 2700, A00062, Áo thun vũ trụ, Vai Cotton 70% poly 28% rayon 2% spandex, blue, 420000, 40, size XL
+PN0009, 30/09/2023, YM20145, YAME, MNG0017, 2900, Q00032, Quần Ngắn, Vai Kaki 70% poly 28% rayon 2% spandex, white, 420000, 30, 35
+PN0010, 13/08/2023, OW23195, OWEN, MNG0014, 2410, A00043, Áo Ba Lỗ, Vãi thoáng mát 70% poly 28% rayon 2% spandex, blue, 420000, 40, size XL

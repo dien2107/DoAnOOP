@@ -1,0 +1,19 @@
+A00002, Áo Polo Tay Ngắn Cá Sấu, Ca Sau Poly Spandex 95% Polyester 5% Spandex, black, 250000, 30, size XL
+A00003, Áo Polo Tay Ngắn Cá Sấu, Ca Sau Poly Spandex 95% Polyester 5% Spandex, green, 280000, 28, size S
+A00004, Áo Sơ Mi Tay Ngắn, Ca sau Cotton Poly 50% Cotton 50% Xanadu, white, 330000, 30, size M
+A00005, Áo Sơ Mi Tay Ngắn, Ca sau Cotton Poly 50% Cotton 50% Xanadu, black, 350000, 30, size XL
+A00045, áo sơ mi tay dài, chất liệu cotton, orange, 300000, 30, size S
+A00012, Áo Polo, Vãi Dày 70% poly 28% rayon 2% spandex, white, 420000, 90, size XL
+A00063, Áo Sơ Mi Trung Niên, Vai Thoáng mát hút ẩm 70% poly 28% rayon 2% spandex, blue, 420000, 120, size XL
+A00015, Áo tay ngắn, Vai Cotton 70% poly 28% rayon 2% spandex, white, 420000, 90, size XL
+A00062, Áo thun vũ trụ, Vai Cotton 70% poly 28% rayon 2% spandex, blue, 420000, 120, size XL
+A00043, Áo Ba Lỗ, Vãi thoáng mát 70% poly 28% rayon 2% spandex, blue, 420000, 120, size XL
+A00019, Áo khoác thời trang, chất liệu 100% cotton, black, 340000, 24, size L
+A00029, áo dù, chất liệu 100% tự nhiên, cream, 340000, 55, size M
+Q00007, Quần Tây Sợi Tự Nhiên, Vai Quan Tay 70% poly 28% rayon 2% spandex, cream, 380000, 28, 33
+Q00008, Quần Tây Sợi Tự Nhiên, Vai Quan Tay 70% poly 28% rayon 2% spandex, black, 400000, 30, 34
+Q00009, Quần Tây Sợi Tự Nhiên, Vai Quan Tay 70% poly 28% rayon 2% spandex, white, 420000, 119, 35
+Q00063, Quần Jeans ôm, Vai Quan jeans 70% poly 28% rayon 2% spandex, blue, 420000, 200, 35
+Q00011, Quần Dài Ống Rộng, Vai Quan Tay 70% poly 28% rayon 2% spandex, white, 420000, 90, 35
+Q00063, Quần Baggy, Vai Quan jeans 70% poly 28% rayon 2% spandex, blue, 420000, 40, 35
+Q00032, Quần Ngắn, Vai Kaki 70% poly 28% rayon 2% spandex, white, 420000, 88, 35
