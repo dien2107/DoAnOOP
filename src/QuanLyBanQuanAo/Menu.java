@@ -83,8 +83,8 @@ public class Menu {
 						if (timkiem.equalsIgnoreCase("end")) {
 							System.out.println("Đã Thoát!");
 							break;
-						} else if (timkiem.startsWith("A") || timkiem.startsWith("a") || timkiem.startsWith("Á")
-								|| timkiem.startsWith("á")) {
+						} else if (timkiem.startsWith("Ao") || timkiem.startsWith("ao") || timkiem.startsWith("Áo")
+								|| timkiem.startsWith("áo")) {
 							String size;
 							System.out.println("Nhập mã sản phẩm: ");
 							maHang = sc.nextLine();
@@ -102,7 +102,7 @@ public class Menu {
 							size = sc.nextLine();
 							Ao spAoMoi = new Ao(maHang, ten, descript, color, gia, soluong, size);
 							managementSystemProduct.addProduct(spAoMoi);
-						} else if (timkiem.equalsIgnoreCase("q")) {
+						} else if (timkiem.equalsIgnoreCase("quần")) {
 							int size;
 							System.out.println("Nhập mã sản phẩm: ");
 							maHang = sc.nextLine();

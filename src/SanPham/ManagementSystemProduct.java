@@ -195,6 +195,7 @@ public class ManagementSystemProduct implements ChucNangCoBan, ChucNangSanPham {
 					case 4:
 						System.out.print("Sửa màu sản phẩm: ");
 						arrayAo[index].setColor(sc.nextLine());
+						break;
 					case 5:
 						System.out.print("Sửa giá sản phẩm: ");
 						arrayAo[index].setGia(Integer.parseInt(sc.nextLine()));
@@ -263,6 +264,7 @@ public class ManagementSystemProduct implements ChucNangCoBan, ChucNangSanPham {
 					case 4:
 						System.out.print("Sửa màu sản phẩm: ");
 						arrayQuan[index].setColor(sc.nextLine());
+						break;
 					case 5:
 						System.out.print("Sửa giá sản phẩm: ");
 						arrayQuan[index].setGia(Integer.parseInt(sc.nextLine()));
