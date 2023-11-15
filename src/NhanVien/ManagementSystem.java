@@ -161,7 +161,7 @@ public class ManagementSystem implements ChucNangCoBan,ChucNangNhanVien{
 	
 	@Override
 	public void addEmployee(Object person) {
-	    if (person instanceof PartTime) {
+		if (person instanceof PartTime) {
 	        if (parttimeList[0] == null) {
 	            parttimeList[0] = (PartTime) person;
 	        } else {

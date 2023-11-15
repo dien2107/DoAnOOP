@@ -154,86 +154,52 @@ public class Menu {
 					while (true) {
 					    System.out.println("Nhân viên bạn muốn thêm vào (parttime|fulltime|manager|nhập 'end' để thoát):");
 					    timkiem = sc.nextLine();
-					    String maNV, name, age;
-					    int baseSalary, aNumber;
-					    String street, district, city;
-
 					    if (timkiem.equalsIgnoreCase("end")) {
 					        System.out.println("Đã Thoát!");
 					        break;
-					    } else if (timkiem.equalsIgnoreCase("parttime")) {
+					    } 
+					    String maNV, name, age;
+					    int baseSalary, aNumber;
+					    String street, district, city;
+					    System.out.println("Nhập Mã NV: ");
+					    maNV = sc.nextLine();
+					    System.out.println("Nhập tên: ");
+					    name = sc.nextLine();
+					    System.out.println("Nhập tuổi: ");
+					    age = sc.nextLine();
+					    System.out.println("Nhập lương cơ bản: ");
+					    baseSalary = Integer.parseInt(sc.nextLine());
+					    System.out.println("Nhập số nhà: ");
+					    aNumber = Integer.parseInt(sc.nextLine());
+					    System.out.println("Nhập tên đường: ");
+					    street = sc.nextLine();
+					    System.out.println("Nhập quận/huyện: ");
+					    district = sc.nextLine();
+					    System.out.println("Nhập thành phố/ tỉnh: ");
+					    city = sc.nextLine();
+					    if (timkiem.equalsIgnoreCase("parttime")) {
 					        int caLamViec;
-					        System.out.println("Nhập Mã NV: ");
-					        maNV = sc.nextLine();
-					        System.out.println("Nhập tên: ");
-					        name = sc.nextLine();
-					        System.out.println("Nhập tuổi: ");
-					        age = sc.nextLine();
-					        System.out.println("Nhập lương cơ bản: ");
-					        baseSalary = Integer.parseInt(sc.nextLine());
 					        System.out.println("Nhập ca Làm việc: ");
 					        caLamViec = Integer.parseInt(sc.nextLine());
-					        System.out.println("Nhập số nhà: ");
-					        aNumber = Integer.parseInt(sc.nextLine());
-					        System.out.println("Nhập tên đường: ");
-					        street = sc.nextLine();
-					        System.out.println("Nhập quận/huyện: ");
-					        district = sc.nextLine();
-					        System.out.println("Nhập thành phố/ tỉnh: ");
-					        city = sc.nextLine();
 					        PartTime ptime = new PartTime(maNV, name, age, new Address(aNumber, street, district, city),
-					                baseSalary, caLamViec);
-					        managementSystemProduct.addProduct(ptime);
+					            baseSalary, caLamViec);
+					        managementSystem.addEmployee(ptime);
 					        System.out.println("Thêm Thành Công !");
-					        break;
 					    } else if (timkiem.equalsIgnoreCase("fulltime")) {
 					        int exp;
 					        double bonus;
-					        System.out.println("Nhập Mã NV: ");
-					        maNV = sc.nextLine();
-					        System.out.println("Nhập tên: ");
-					        name = sc.nextLine();
-					        System.out.println("Nhập tuổi: ");
-					        age = sc.nextLine();
-					        System.out.println("Nhập lương cơ bản: ");
-					        baseSalary = Integer.parseInt(sc.nextLine());
-					        System.out.println("Nhập số nhà: ");
-					        aNumber = Integer.parseInt(sc.nextLine());
-					        System.out.println("Nhập tên đường: ");
-					        street = sc.nextLine();
-					        System.out.println("Nhập quận/huyện: ");
-					        district = sc.nextLine();
-					        System.out.println("Nhập thành phố/ tỉnh: ");
-					        city = sc.nextLine();
 					        System.out.println("Nhập năm kinh nghiệm: ");
 					        exp = Integer.parseInt(sc.nextLine());
 					        System.out.println("Nhập thưởng thêm: ");
 					        bonus = Double.parseDouble(sc.nextLine());
 					        FullTime ftime = new FullTime(maNV, name, age, new Address(aNumber, street, district, city),
-					                baseSalary, exp, bonus);
+					            baseSalary, exp, bonus);
 					        managementSystem.addEmployee(ftime);
 					        System.out.println("Thêm Thành Công !");
-					        break;
 					    } else if (timkiem.equalsIgnoreCase("manager")) {
 					        int exp;
 					        double bonus;
 					        String chucVu;
-					        System.out.println("Nhập Mã NV: ");
-					        maNV = sc.nextLine();
-					        System.out.println("Nhập tên: ");
-					        name = sc.nextLine();
-					        System.out.println("Nhập tuổi: ");
-					        age = sc.nextLine();
-					        System.out.println("Nhập lương cơ bản: ");
-					        baseSalary = Integer.parseInt(sc.nextLine());
-					        System.out.println("Nhập số nhà: ");
-					        aNumber = Integer.parseInt(sc.nextLine());
-					        System.out.println("Nhập tên đường: ");
-					        street = sc.nextLine();
-					        System.out.println("Nhập quận/huyện: ");
-					        district = sc.nextLine();
-					        System.out.println("Nhập thành phố/ tỉnh: ");
-					        city = sc.nextLine();
 					        System.out.println("Nhập năm kinh nghiệm: ");
 					        exp = Integer.parseInt(sc.nextLine());
 					        System.out.println("Nhập thưởng thêm: ");
@@ -241,10 +207,9 @@ public class Menu {
 					        System.out.println("Nhập Chức Vụ Quản Lý: ");
 					        chucVu = sc.nextLine();
 					        Manager mger = new Manager(maNV, name, age, new Address(aNumber, street, district, city),
-					                baseSalary, chucVu, exp, bonus);
+					            baseSalary, chucVu, exp, bonus);
 					        managementSystem.addEmployee(mger);
 					        System.out.println("Thêm Thành Công !");
-					        break;
 					    } else {
 					        System.out.println("Không có chức vụ này");
 					        break;
@@ -388,7 +353,7 @@ public class Menu {
 				// TODO: handle exception
 			}
 			// Customer khachhang = new Customer(null, null, choice, null, choice);
-			System.out.print("\nMời bạn nhập mã khách hàng: ");
+			System.out.print("\nMời bạn nhập mã khách hàng (kiểm tra đăng nhập): ");
 			String maKhachHang = sc.nextLine();
 			Customer cus = new Customer();
 			boolean flag = false;
