@@ -89,19 +89,12 @@ public class ManagementSystem implements ChucNangCoBan,ChucNangNhanVien{
 					break;
 				}
 			}
+			br.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Lỗi load file!");
 		}
-//		for (PartTime c : parttimeList) {
-//			System.out.println(c);
-//		}
-//		for (FullTime c : fulltimeList) {
-//			System.out.println(c);
-//		}
-//		for (Manager c : managerList) {
-//			System.out.println(c);
-//		}
+//		
 	}
 	
 	public void ShowAllList () {
